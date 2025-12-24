@@ -20,8 +20,8 @@ MODE_MANUAL = 0
 MODE_AUTO   = 1
 
 # ================= LOAD MODELS =================
-rain_model = joblib.load("iot_final/random_forest_model_rain.joblib")
-pump_model = joblib.load("iot_final/xgboost_model_pump (1).joblib")
+rain_model = joblib.load("./model/random_forest_model_rain.joblib")
+pump_model = joblib.load("./model/xgboost_model_pump.joblib")
 print("AI models loaded")
 
 # ================= PHP HELPERS =================
